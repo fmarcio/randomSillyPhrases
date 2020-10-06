@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: seashell;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    background: none;
+    padding: 10px 20px;
+    color: #333;
+    border-color: #333;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+button:hover {
+    background: #333;
+    color: white;
+}
+
+.notification {
+    background: burlywood;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+}
